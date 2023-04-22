@@ -52,7 +52,7 @@ app.get("/api/create_link_token", async (req, res, next) => {
 		country_codes: ["US"],
 		redirect_uri: process.env.PLAID_SANDBOX_REDIRECT_URI,
 	});
-	console.log('tokenResponse', tokenResponse);
+	console.log('tokenResponse', tokenResponse?.data);
 	res.json(tokenResponse.data);
 });
 
