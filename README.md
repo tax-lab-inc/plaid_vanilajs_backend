@@ -1,4 +1,4 @@
-# README: Tiny Quickstart (Vanilla JS)
+# README: Quickstart Plaid (Vanilla JS)
 
 ### Overview
 
